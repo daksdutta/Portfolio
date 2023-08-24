@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAKSHITA DUTTA</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <!-- home section  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello !!, I am </h3>
+            <h1>DAKSHITA DUTTA</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <div class="social-media">
+                <a href="https://github.com/daksdutta/"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/dakshita-dutta/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1GsMyTgdEqXqmRSZHXP_20qLUJjWUGCDs?usp=drive_link" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img class="img" src="images/home.png">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/home.png" alt="Image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hello, My name is Dakshita Dutta.
+                I am from Ambala,Haryana. Currently
+                I am a Front-End Developer.
+                I did my Bachlors of Computer Applications from M.C.M D.A.V College for Women, Chandigarh (Panjab
+                University). I am persuing my Masters from Vellore Institute of Technology (VIT), Vellore Campus.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Bakery Website</h4>
+                    <p>Demo Website for Bakery Shop</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Books Recommendation System</h4>
+                    <p>Hybrid Recommendation System to recommend books according to user ratings</p>
+                    <a href="https://github.com/daksdutta/RecommendationSystem.git"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Canteen Management System</h4>
+                    <p>Demo application for Canteen</p>
+                    <a href="https://github.com/daksdutta/CanteenManagementSystem.git"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me!</span></h2>
+
+        <form onsubmit="showThankYou(); return false;">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="name">
+                <input type="email" placeholder="Email Address" id="email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" id="mobile">
+                <input type="text" placeholder="Email Subject" id="subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message" id="message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        <div class="thankyou" id="thankYouMessage" style="display: none;">
+            <h2>Thank You</h2>
+            <p>Your message has been sent to Dakshita. We'll get back to you soon.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright @ 2023 by Dakshita</p>
+        </div>        
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
